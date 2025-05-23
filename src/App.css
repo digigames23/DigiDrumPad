@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Titillium Web", sans-serif;
+}
+
+#drum-machine {
+  margin: 10rem auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  background-color: #ead637;
+  padding: 3rem;
+  width: 50rem;
+  border-radius: 2rem;
+}
+
+@media only screen and (max-width: 820px) {
+  #drum-machine {
+    width: 40rem;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  #drum-machine {
+    width: 35rem;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  #drum-machine {
+    margin-top: 5rem;
+    width: 30rem;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  #drum-machine {
+    width: 25rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #drum-machine {
+    width: 23rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #drum-machine {
+    width: 20rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  #drum-machine {
+    width: 18rem;
+  }
+}

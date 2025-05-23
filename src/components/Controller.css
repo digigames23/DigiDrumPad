@@ -1,0 +1,41 @@
+.drum-controller {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.volume-level {
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 660px) {
+  .volume-level {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+  }
+  .sound__type {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .drum-controller {
+    margin-top: 2rem;
+    padding: 2rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .drum-controller {
+    margin-top: 0.5rem;
+  }
+  .sound__type {
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .drum-controller {
+    margin-top: 1rem;
+  }
+}
