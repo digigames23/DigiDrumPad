@@ -2,6 +2,6 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/DigiDrumPad/',
+  base: '', // ✅ FIXED: No slash, no folder, nothing
   plugins: [react()],
 });
